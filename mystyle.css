@@ -1,0 +1,95 @@
+/* Аватар */
+.avatar {
+    width: 120px;
+    height: 200px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+/* Чтобы аватар был рядом с текстом */
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+/* Текст около аватара */
+.info-text p{
+    margin:0;
+    margin-left: 30px;
+}
+/* Аватар + текст */
+.container {
+    max-width: 750px;
+    margin: auto;
+    background-color: rgb(247, 238, 228);
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.699);
+    border-radius: 3px;
+}
+/* Цели обучения */
+.targets_education {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+/* Доступное на обучение время + курсы + контакты */
+.table_education_time, .table_courses, .contacts {
+    border:2px solid black;
+    border-radius: 5px;
+}
+/* Таблица */
+table {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+table th, td {
+    width: 33%;
+    padding-bottom: 5px;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    border-bottom: 1px solid black;
+}
+/* Список */
+ul {
+    list-style-type: square;
+}
+ul li {
+    padding-bottom: 6px;
+}
+/* Дивы */
+div {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+div p:nth-child(odd) {
+    font-weight: bold;
+}
+/* Стиль h2 + th */
+h2, th {
+    margin-left: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Общие настройки Body */
+body {
+    background-color: rgb(35, 196, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Кнопка для ссылка */
+.VK {
+    background-color: rgb(89, 125, 163);
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    padding: 5px;
+    font-size: 12px;
+    width:20px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+}
